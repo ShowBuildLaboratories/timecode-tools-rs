@@ -32,7 +32,8 @@ jobs:
       - name: C interface (header, layout, smoke test)
         if: matrix.os != 'windows-latest'
         run: scripts/check-c-abi.sh
-      - run: cargo publish -p timecode-tools --dry-run
+      # The unpacked package is removed so the cache step does not scan it.
+      - run: cargo publish -p timecode-tools --dry-run && rm -rf target/package
         if: matrix.os == 'ubuntu-latest'
 
   msrv:

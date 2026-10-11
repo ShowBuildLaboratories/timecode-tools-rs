@@ -42,6 +42,10 @@ for target in "$@"; do
       # A stable install name; Flutter's build hook renames and signs it.
       install_name_tool -id "@rpath/$lib" "$out/$lib" ;;
   esac
-  (cd "$out" && shasum -a 256 "$lib" > SHA256SUMS)
+  if command -v sha256sum >/dev/null 2>&1; then
+    (cd "$out" && sha256sum "$lib" > SHA256SUMS)
+  else
+    (cd "$out" && shasum -a 256 "$lib" > SHA256SUMS)
+  fi
   echo "$out/$lib"
 done
