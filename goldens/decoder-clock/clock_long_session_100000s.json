@@ -1,0 +1,311 @@
+{
+  "name": "long_session_100000s",
+  "description": "Clock: observations starting 100000 s from t=0; centered least squares keeps slope and residual precision far from the origin.",
+  "config": {
+    "max_age_seconds": 4.0,
+    "stale_after_ns": 4000000000,
+    "max_points": 120,
+    "min_points_for_fit": 2,
+    "min_points_usable": 8,
+    "min_span_seconds": 0.25,
+    "max_residual_frames": 0.75,
+    "jump_reset_frames": 5.0
+  },
+  "steps": [
+    {
+      "op": "observe",
+      "t": 100000.0,
+      "tc": 0.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100000.03333333334,
+      "tc": 1.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100000.06666666667,
+      "tc": 2.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100000.1,
+      "tc": 3.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100000.13333333333,
+      "tc": 4.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100000.16666666667,
+      "tc": 5.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100000.2,
+      "tc": 6.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100000.23333333334,
+      "tc": 7.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100000.26666666666,
+      "tc": 8.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100000.3,
+      "tc": 9.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100000.33333333333,
+      "tc": 10.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100000.36666666667,
+      "tc": 11.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100000.4,
+      "tc": 12.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100000.43333333333,
+      "tc": 13.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100000.46666666666,
+      "tc": 14.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100000.5,
+      "tc": 15.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100000.53333333334,
+      "tc": 16.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100000.56666666667,
+      "tc": 17.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100000.6,
+      "tc": 18.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100000.63333333333,
+      "tc": 19.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100000.66666666667,
+      "tc": 20.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100000.7,
+      "tc": 21.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100000.73333333334,
+      "tc": 22.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100000.76666666666,
+      "tc": 23.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100000.8,
+      "tc": 24.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100000.83333333333,
+      "tc": 25.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100000.86666666667,
+      "tc": 26.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100000.9,
+      "tc": 27.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100000.93333333333,
+      "tc": 28.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100000.96666666666,
+      "tc": 29.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100001.0,
+      "tc": 30.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100001.03333333334,
+      "tc": 31.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100001.06666666667,
+      "tc": 32.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100001.1,
+      "tc": 33.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100001.13333333333,
+      "tc": 34.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100001.16666666667,
+      "tc": 35.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100001.2,
+      "tc": 36.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100001.23333333334,
+      "tc": 37.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100001.26666666666,
+      "tc": 38.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 100001.3,
+      "tc": 39.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "snapshot",
+      "now_ns": 0,
+      "a": -3000000.00000127,
+      "b": 30.0000000000127,
+      "residual": 3.453436534430675e-10,
+      "usable": true,
+      "nominal_fps": 30
+    },
+    {
+      "op": "probe",
+      "t": 100001.3,
+      "now_ns": 0,
+      "value": 39.00000000046566
+    }
+  ]
+}

@@ -1,0 +1,1872 @@
+{
+  "name": "ltc_24_stereo_channel2_fixed_rate",
+  "description": "24 fps on channel 2 of a stereo stream (channel 1 carries a ramp), frame rate fixed, offset -3.",
+  "kind": "ltc",
+  "input": {
+    "sample_rate": 44100,
+    "rate": "24",
+    "channels": 2,
+    "ltc_channel": 2,
+    "chunk": 441,
+    "t0_us": 100000000,
+    "segments": [
+      {
+        "start": "10:00:00:00",
+        "frame_count": 48
+      }
+    ],
+    "sample_count": 177136
+  },
+  "options": {
+    "frame_rate": "24",
+    "channel": 2,
+    "offset_frames": -3
+  },
+  "steps": [
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100010000,
+        "value": null
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100020000,
+        "value": null
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100030000,
+        "value": null
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100040000,
+        "value": null
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100050000,
+        "value": null
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100060000,
+        "value": null
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100070000,
+        "value": null
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100080000,
+        "value": null
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100090000,
+        "value": null
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100100000,
+        "value": null
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100110000,
+        "value": null
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100120000,
+        "value": null
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100130000,
+        "value": null
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100140000,
+        "value": null
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100150000,
+        "value": null
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100160000,
+        "value": null
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100170000,
+        "value": null
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:00:00",
+          "ts_us": 100129195
+        }
+      ],
+      "events": [
+        "lock"
+      ],
+      "frames_at": {
+        "t_us": 100180000,
+        "value": null
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100190000,
+        "value": null
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100200000,
+        "value": null
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100210000,
+        "value": null
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:00:01",
+          "ts_us": 100170850
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 100220000,
+        "value": null
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100230000,
+        "value": null
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100240000,
+        "value": null
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100250000,
+        "value": null
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:00:02",
+          "ts_us": 100212528
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 100260000,
+        "value": null
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100270000,
+        "value": null
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100280000,
+        "value": null
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100290000,
+        "value": null
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:00:03",
+          "ts_us": 100254183
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 100300000,
+        "value": null
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100310000,
+        "value": null
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100320000,
+        "value": null
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100330000,
+        "value": null
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:00:04",
+          "ts_us": 100295861
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 100340000,
+        "value": 864005.059409649
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100350000,
+        "value": 864005.2994065385
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100360000,
+        "value": 864005.5394034279
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100370000,
+        "value": 864005.7794003173
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:00:05",
+          "ts_us": 100337517
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 100380000,
+        "value": 864006.0194708884
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100390000,
+        "value": 864006.2594708878
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100400000,
+        "value": 864006.4994708871
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100410000,
+        "value": 864006.7394708864
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100420000,
+        "value": 864006.9794708858
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:00:06",
+          "ts_us": 100379195
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 100430000,
+        "value": 864007.2194168571
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100440000,
+        "value": 864007.4594148776
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100450000,
+        "value": 864007.6994128982
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100460000,
+        "value": 864007.9394109186
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:00:07",
+          "ts_us": 100420850
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 100470000,
+        "value": 864008.1794681414
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100480000,
+        "value": 864008.4194681409
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100490000,
+        "value": 864008.6594681405
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100500000,
+        "value": 864008.8994681401
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:00:08",
+          "ts_us": 100462528
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 100510000,
+        "value": 864009.1394235806
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100520000,
+        "value": 864009.3794222103
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100530000,
+        "value": 864009.6194208398
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100540000,
+        "value": 864009.8594194694
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:00:09",
+          "ts_us": 100504183
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 100550000,
+        "value": 864010.09946624
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100560000,
+        "value": 864010.3394662398
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100570000,
+        "value": 864010.5794662394
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100580000,
+        "value": 864010.8194662391
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:00:10",
+          "ts_us": 100545861
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 100590000,
+        "value": 864011.0594283153
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100600000,
+        "value": 864011.2994273104
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100610000,
+        "value": 864011.5394263053
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100620000,
+        "value": 864011.7794253004
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:00:11",
+          "ts_us": 100587517
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 100630000,
+        "value": 864012.0194648457
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100640000,
+        "value": 864012.2594648454
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100650000,
+        "value": 864012.4994648452
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100660000,
+        "value": 864012.7394648449
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100670000,
+        "value": 864012.9794648447
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:00:12",
+          "ts_us": 100629195
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 100680000,
+        "value": 864013.2194310636
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100690000,
+        "value": 864013.4594302952
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100700000,
+        "value": 864013.6994295266
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100710000,
+        "value": 864013.9394287581
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:00:13",
+          "ts_us": 100670850
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 100720000,
+        "value": 864014.1794637793
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100730000,
+        "value": 864014.4194637791
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100740000,
+        "value": 864014.659463779
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100750000,
+        "value": 864014.8994637787
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:00:14",
+          "ts_us": 100712528
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 100760000,
+        "value": 864015.1394339418
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100770000,
+        "value": 864015.379433335
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100780000,
+        "value": 864015.6194327284
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100790000,
+        "value": 864015.8594321216
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:00:15",
+          "ts_us": 100754183
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 100800000,
+        "value": 864016.0994629374
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100810000,
+        "value": 864016.3394629373
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100820000,
+        "value": 864016.5794629372
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100830000,
+        "value": 864016.819462937
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:00:16",
+          "ts_us": 100795861
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 100840000,
+        "value": 864017.0594362192
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100850000,
+        "value": 864017.299435728
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100860000,
+        "value": 864017.5394352368
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100870000,
+        "value": 864017.7794347457
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:00:17",
+          "ts_us": 100837517
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 100880000,
+        "value": 864018.0194622561
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100890000,
+        "value": 864018.259462256
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100900000,
+        "value": 864018.4994622559
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100910000,
+        "value": 864018.7394622557
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100920000,
+        "value": 864018.9794622556
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:00:18",
+          "ts_us": 100879195
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 100930000,
+        "value": 864019.2194376603
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100940000,
+        "value": 864019.4594372546
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100950000,
+        "value": 864019.6994368488
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100960000,
+        "value": 864019.939436443
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:00:19",
+          "ts_us": 100920850
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 100970000,
+        "value": 864020.179461693
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100980000,
+        "value": 864020.4194616929
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 100990000,
+        "value": 864020.6594616928
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101000000,
+        "value": 864020.8994616927
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:00:20",
+          "ts_us": 100962528
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 101010000,
+        "value": 864021.1394392534
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101020000,
+        "value": 864021.3794389125
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101030000,
+        "value": 864021.6194385717
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101040000,
+        "value": 864021.8594382309
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:00:21",
+          "ts_us": 101004183
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 101050000,
+        "value": 864022.0994612201
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101060000,
+        "value": 864022.3394612201
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101070000,
+        "value": 864022.57946122
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101080000,
+        "value": 864022.81946122
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:00:22",
+          "ts_us": 101045861
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 101090000,
+        "value": 864023.0594405892
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101100000,
+        "value": 864023.2994402988
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101110000,
+        "value": 864023.5394400085
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101120000,
+        "value": 864023.7794397182
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:00:23",
+          "ts_us": 101087517
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 101130000,
+        "value": 864024.0194608174
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101140000,
+        "value": 864024.2594608174
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101150000,
+        "value": 864024.4994608173
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101160000,
+        "value": 864024.7394608172
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101170000,
+        "value": 864024.9794608172
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:01:00",
+          "ts_us": 101129195
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 101180000,
+        "value": 864025.2194414751
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101190000,
+        "value": 864025.4594412248
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101200000,
+        "value": 864025.6994409745
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101210000,
+        "value": 864025.9394407242
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:01:01",
+          "ts_us": 101170850
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 101220000,
+        "value": 864026.1794604701
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101230000,
+        "value": 864026.4194604701
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101240000,
+        "value": 864026.65946047
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101250000,
+        "value": 864026.89946047
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:01:02",
+          "ts_us": 101212528
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 101260000,
+        "value": 864027.1394424855
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101270000,
+        "value": 864027.3794422675
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101280000,
+        "value": 864027.6194420495
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101290000,
+        "value": 864027.8594418315
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:01:03",
+          "ts_us": 101254183
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 101300000,
+        "value": 864028.0994601676
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101310000,
+        "value": 864028.3394601676
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101320000,
+        "value": 864028.5794601676
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101330000,
+        "value": 864028.8194601674
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:01:04",
+          "ts_us": 101295861
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 101340000,
+        "value": 864029.0594433629
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101350000,
+        "value": 864029.2994431714
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101360000,
+        "value": 864029.5394429797
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101370000,
+        "value": 864029.7794427882
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:01:05",
+          "ts_us": 101337517
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 101380000,
+        "value": 864030.019459902
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101390000,
+        "value": 864030.259459902
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101400000,
+        "value": 864030.4994599018
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101410000,
+        "value": 864030.7394599018
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101420000,
+        "value": 864030.9794599018
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:01:06",
+          "ts_us": 101379195
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 101430000,
+        "value": 864031.2194439622
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101440000,
+        "value": 864031.4594437925
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101450000,
+        "value": 864031.6994436228
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101460000,
+        "value": 864031.9394434532
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:01:07",
+          "ts_us": 101420850
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 101470000,
+        "value": 864032.1794596665
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101480000,
+        "value": 864032.4194596665
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101490000,
+        "value": 864032.6594596663
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101500000,
+        "value": 864032.8994596663
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:01:08",
+          "ts_us": 101462528
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 101510000,
+        "value": 864033.1394446599
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101520000,
+        "value": 864033.3794445086
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101530000,
+        "value": 864033.6194443572
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101540000,
+        "value": 864033.8594442059
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:01:09",
+          "ts_us": 101504183
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 101550000,
+        "value": 864034.0994594566
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101560000,
+        "value": 864034.3394594565
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101570000,
+        "value": 864034.5794594565
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101580000,
+        "value": 864034.8194594565
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:01:10",
+          "ts_us": 101545861
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 101590000,
+        "value": 864035.0594452801
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101600000,
+        "value": 864035.2994451443
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101610000,
+        "value": 864035.5394450085
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101620000,
+        "value": 864035.7794448726
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:01:11",
+          "ts_us": 101587517
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 101630000,
+        "value": 864036.0194592681
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101640000,
+        "value": 864036.2594592681
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101650000,
+        "value": 864036.4994592681
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101660000,
+        "value": 864036.7394592679
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101670000,
+        "value": 864036.9794592679
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:01:12",
+          "ts_us": 101629195
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 101680000,
+        "value": 864037.2194457124
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101690000,
+        "value": 864037.4594455898
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101700000,
+        "value": 864037.6994454672
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101710000,
+        "value": 864037.9394453447
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:01:13",
+          "ts_us": 101670850
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 101720000,
+        "value": 864038.179459098
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101730000,
+        "value": 864038.419459098
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101740000,
+        "value": 864038.659459098
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101750000,
+        "value": 864038.8994590979
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:01:14",
+          "ts_us": 101712528
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 101760000,
+        "value": 864039.1394462229
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101770000,
+        "value": 864039.3794461119
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101780000,
+        "value": 864039.6194460007
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101790000,
+        "value": 864039.8594458895
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:01:15",
+          "ts_us": 101754183
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 101800000,
+        "value": 864040.0994589438
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101810000,
+        "value": 864040.3394589438
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101820000,
+        "value": 864040.5794589437
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101830000,
+        "value": 864040.8194589437
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:01:16",
+          "ts_us": 101795861
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 101840000,
+        "value": 864041.0594466844
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101850000,
+        "value": 864041.2994465831
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101860000,
+        "value": 864041.5394464819
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101870000,
+        "value": 864041.7794463806
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:01:17",
+          "ts_us": 101837517
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 101880000,
+        "value": 864042.0194588033
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101890000,
+        "value": 864042.2594588032
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101900000,
+        "value": 864042.4994588032
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101910000,
+        "value": 864042.7394588032
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101920000,
+        "value": 864042.9794588032
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:01:18",
+          "ts_us": 101879195
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 101930000,
+        "value": 864043.2194470109
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101940000,
+        "value": 864043.4594469182
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101950000,
+        "value": 864043.6994468255
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101960000,
+        "value": 864043.9394467329
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:01:19",
+          "ts_us": 101920850
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 101970000,
+        "value": 864044.1794586747
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101980000,
+        "value": 864044.4194586747
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 101990000,
+        "value": 864044.6594586747
+      }
+    },
+    {
+      "frames": [],
+      "events": [],
+      "frames_at": {
+        "t_us": 102000000,
+        "value": 864044.8994586747
+      }
+    },
+    {
+      "frames": [
+        {
+          "tc": "10:00:01:20",
+          "ts_us": 101962528
+        }
+      ],
+      "events": [],
+      "frames_at": {
+        "t_us": 102008345,
+        "value": 864045.0997274149
+      }
+    }
+  ],
+  "wait_for": {
+    "10:00:01:00": {
+      "chunk": 117,
+      "tc": "10:00:01:00",
+      "ts_us": 101129195
+    }
+  },
+  "final_locked": true,
+  "final_detected_rate": "24",
+  "final_current": "10:00:01:20"
+}

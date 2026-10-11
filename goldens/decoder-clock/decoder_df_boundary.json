@@ -1,0 +1,564 @@
+{
+  "name": "df_boundary",
+  "description": "Decoder: 90 frames of 30 fps drop-frame from 00:00:58;00 across 00:01:00, where frame numbers ;00 and ;01 are skipped. Lock stays continuous across the boundary.",
+  "sample_rate": 48000,
+  "kind": "encoded",
+  "encoder": {
+    "fps": 30,
+    "drop_frame": true,
+    "start_hours": 0,
+    "start_minutes": 0,
+    "start_seconds": 58,
+    "start_frames": 0,
+    "frame_count": 90,
+    "amplitude": 20000,
+    "preamble_bit": 1,
+    "invert": false
+  },
+  "sample_count": 144320,
+  "pcm_sha256": "dc3cb4f0a4fa95c2c55ed3575565c8d3a27796ba59f8a389660d158fe6e0fde8",
+  "frames": [
+    {
+      "timecode": "00:00:58;00",
+      "sample_index": 1761,
+      "locked": false,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:58;01",
+      "sample_index": 3361,
+      "locked": false,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:58;02",
+      "sample_index": 4961,
+      "locked": false,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:58;03",
+      "sample_index": 6561,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:58;04",
+      "sample_index": 8161,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:58;05",
+      "sample_index": 9761,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:58;06",
+      "sample_index": 11361,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:58;07",
+      "sample_index": 12961,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:58;08",
+      "sample_index": 14561,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:58;09",
+      "sample_index": 16161,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:58;10",
+      "sample_index": 17761,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:58;11",
+      "sample_index": 19361,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:58;12",
+      "sample_index": 20961,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:58;13",
+      "sample_index": 22561,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:58;14",
+      "sample_index": 24161,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:58;15",
+      "sample_index": 25761,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:58;16",
+      "sample_index": 27361,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:58;17",
+      "sample_index": 28961,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:58;18",
+      "sample_index": 30561,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:58;19",
+      "sample_index": 32161,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:58;20",
+      "sample_index": 33761,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:58;21",
+      "sample_index": 35361,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:58;22",
+      "sample_index": 36961,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:58;23",
+      "sample_index": 38561,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:58;24",
+      "sample_index": 40161,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:58;25",
+      "sample_index": 41761,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:58;26",
+      "sample_index": 43361,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:58;27",
+      "sample_index": 44961,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:58;28",
+      "sample_index": 46561,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:58;29",
+      "sample_index": 48161,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:59;00",
+      "sample_index": 49761,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:59;01",
+      "sample_index": 51361,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:59;02",
+      "sample_index": 52961,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:59;03",
+      "sample_index": 54561,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:59;04",
+      "sample_index": 56161,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:59;05",
+      "sample_index": 57761,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:59;06",
+      "sample_index": 59361,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:59;07",
+      "sample_index": 60961,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:59;08",
+      "sample_index": 62561,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:59;09",
+      "sample_index": 64161,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:59;10",
+      "sample_index": 65761,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:59;11",
+      "sample_index": 67361,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:59;12",
+      "sample_index": 68961,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:59;13",
+      "sample_index": 70561,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:59;14",
+      "sample_index": 72161,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:59;15",
+      "sample_index": 73761,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:59;16",
+      "sample_index": 75361,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:59;17",
+      "sample_index": 76961,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:59;18",
+      "sample_index": 78561,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:59;19",
+      "sample_index": 80161,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:59;20",
+      "sample_index": 81761,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:59;21",
+      "sample_index": 83361,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:59;22",
+      "sample_index": 84961,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:59;23",
+      "sample_index": 86561,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:59;24",
+      "sample_index": 88161,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:59;25",
+      "sample_index": 89761,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:59;26",
+      "sample_index": 91361,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:59;27",
+      "sample_index": 92961,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:59;28",
+      "sample_index": 94561,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:00:59;29",
+      "sample_index": 96161,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:01:00;02",
+      "sample_index": 97761,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:01:00;03",
+      "sample_index": 99361,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:01:00;04",
+      "sample_index": 100961,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:01:00;05",
+      "sample_index": 102561,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:01:00;06",
+      "sample_index": 104161,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:01:00;07",
+      "sample_index": 105761,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:01:00;08",
+      "sample_index": 107361,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:01:00;09",
+      "sample_index": 108961,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:01:00;10",
+      "sample_index": 110561,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:01:00;11",
+      "sample_index": 112161,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:01:00;12",
+      "sample_index": 113761,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:01:00;13",
+      "sample_index": 115361,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:01:00;14",
+      "sample_index": 116961,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:01:00;15",
+      "sample_index": 118561,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:01:00;16",
+      "sample_index": 120161,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:01:00;17",
+      "sample_index": 121761,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:01:00;18",
+      "sample_index": 123361,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:01:00;19",
+      "sample_index": 124961,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:01:00;20",
+      "sample_index": 126561,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:01:00;21",
+      "sample_index": 128161,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:01:00;22",
+      "sample_index": 129761,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:01:00;23",
+      "sample_index": 131361,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:01:00;24",
+      "sample_index": 132961,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:01:00;25",
+      "sample_index": 134561,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:01:00;26",
+      "sample_index": 136161,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:01:00;27",
+      "sample_index": 137761,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:01:00;28",
+      "sample_index": 139361,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:01:00;29",
+      "sample_index": 140961,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:01:01;00",
+      "sample_index": 142561,
+      "locked": true,
+      "estimated_fps": 30
+    },
+    {
+      "timecode": "00:01:01;01",
+      "sample_index": 144161,
+      "locked": true,
+      "estimated_fps": 30
+    }
+  ],
+  "final_locked": true,
+  "final_estimated_fps": 30
+}

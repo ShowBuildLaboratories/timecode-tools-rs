@@ -1,0 +1,14 @@
+name: timecode_tools_reference
+description: >-
+  The pure-Dart reference implementation of timecode-tools. Not published:
+  it produces the golden files (../../goldens) that the Rust core and every
+  binding must reproduce.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.0

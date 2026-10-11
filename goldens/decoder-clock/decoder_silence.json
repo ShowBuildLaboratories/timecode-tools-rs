@@ -1,0 +1,11 @@
+{
+  "name": "silence",
+  "description": "Decoder: one second of all-zero PCM16 never emits a frame. Also cross-checks the SHA-256 implementations.",
+  "sample_rate": 48000,
+  "kind": "silence",
+  "sample_count": 48000,
+  "pcm_sha256": "55873fecc61a79e87ca550c7072e38ccdd7ecb600ace286fe4717952a97c42b0",
+  "frames": [],
+  "final_locked": false,
+  "final_estimated_fps": null
+}

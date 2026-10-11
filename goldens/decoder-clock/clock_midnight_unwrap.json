@@ -1,0 +1,187 @@
+{
+  "name": "midnight_unwrap",
+  "description": "Clock: 20 observations ending at the last frame of a 30 fps non-drop-frame day, then one that wraps to frame 0. With frames-per-day supplied, the rollover is unwrapped instead of being treated as a jam.",
+  "config": {
+    "max_age_seconds": 4.0,
+    "stale_after_ns": 4000000000,
+    "max_points": 120,
+    "min_points_for_fit": 2,
+    "min_points_usable": 8,
+    "min_span_seconds": 0.25,
+    "max_residual_frames": 0.75,
+    "jump_reset_frames": 5.0
+  },
+  "steps": [
+    {
+      "op": "observe",
+      "t": 0.0,
+      "tc": 2591980.0,
+      "frames_per_day": 2592000,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.03333333333333333,
+      "tc": 2591981.0,
+      "frames_per_day": 2592000,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.06666666666666667,
+      "tc": 2591982.0,
+      "frames_per_day": 2592000,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.1,
+      "tc": 2591983.0,
+      "frames_per_day": 2592000,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.13333333333333333,
+      "tc": 2591984.0,
+      "frames_per_day": 2592000,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.16666666666666666,
+      "tc": 2591985.0,
+      "frames_per_day": 2592000,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.2,
+      "tc": 2591986.0,
+      "frames_per_day": 2592000,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.23333333333333334,
+      "tc": 2591987.0,
+      "frames_per_day": 2592000,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.26666666666666666,
+      "tc": 2591988.0,
+      "frames_per_day": 2592000,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.3,
+      "tc": 2591989.0,
+      "frames_per_day": 2592000,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.3333333333333333,
+      "tc": 2591990.0,
+      "frames_per_day": 2592000,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.36666666666666664,
+      "tc": 2591991.0,
+      "frames_per_day": 2592000,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.4,
+      "tc": 2591992.0,
+      "frames_per_day": 2592000,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.43333333333333335,
+      "tc": 2591993.0,
+      "frames_per_day": 2592000,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.4666666666666667,
+      "tc": 2591994.0,
+      "frames_per_day": 2592000,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.5,
+      "tc": 2591995.0,
+      "frames_per_day": 2592000,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.5333333333333333,
+      "tc": 2591996.0,
+      "frames_per_day": 2592000,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.5666666666666667,
+      "tc": 2591997.0,
+      "frames_per_day": 2592000,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.6,
+      "tc": 2591998.0,
+      "frames_per_day": 2592000,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.6333333333333333,
+      "tc": 2591999.0,
+      "frames_per_day": 2592000,
+      "now_ns": 0
+    },
+    {
+      "op": "snapshot",
+      "now_ns": 0,
+      "a": 2591980.0,
+      "b": 30.000000000000004,
+      "residual": 0.0,
+      "usable": true,
+      "nominal_fps": 30
+    },
+    {
+      "op": "observe",
+      "t": 0.6666666666666666,
+      "tc": 0.0,
+      "frames_per_day": 2592000,
+      "now_ns": 0
+    },
+    {
+      "op": "snapshot",
+      "now_ns": 0,
+      "a": 2591980.0,
+      "b": 29.999999999999996,
+      "residual": 0.0,
+      "usable": true,
+      "nominal_fps": 30
+    },
+    {
+      "op": "probe",
+      "t": 0.6666666666666666,
+      "now_ns": 0,
+      "value": 2592000.0
+    }
+  ]
+}

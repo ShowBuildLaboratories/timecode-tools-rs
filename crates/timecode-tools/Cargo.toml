@@ -1,0 +1,27 @@
+[package]
+name = "timecode-tools"
+description = "Dependency-free SMPTE LTC (linear timecode) and MIDI Time Code readers, timecode arithmetic and a drift-correcting timecode clock"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+homepage.workspace = true
+documentation = "https://docs.rs/timecode-tools"
+readme = "README.md"
+keywords = ["timecode", "smpte", "ltc", "mtc", "midi"]
+categories = ["multimedia::audio", "date-and-time", "parser-implementations"]
+# The golden-file tests read ../../goldens and stay in the repository.
+include = ["src/**/*.rs", "tests/dart_parity.rs", "tests/synthetic.rs", "README.md", "LICENSE", "CHANGELOG.md"]
+
+[lib]
+name = "timecode_tools"
+
+# The library has no dependencies. serde_json is used only by the parity tests
+# that read the Dart-generated fixtures. `float_roundtrip` is required: the
+# default float parser is not always correctly rounding (for example
+# "100000.06666666667" parses one ULP high), which would break the tests'
+# 1e-12 relative tolerance.
+[dev-dependencies]
+serde_json = { version = "1", features = ["float_roundtrip"] }

@@ -1,0 +1,18 @@
+[workspace]
+resolver = "2"
+members = ["crates/timecode-tools", "crates/timecode-tools-ffi"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.88"
+license = "MIT"
+authors = ["Show Build Laboratories"]
+repository = "https://github.com/ShowBuildLaboratories/timecode-tools-rs"
+homepage = "https://github.com/ShowBuildLaboratories/timecode-tools-rs"
+
+[profile.release]
+lto = true
+codegen-units = 1
+strip = "symbols"
+panic = "unwind"

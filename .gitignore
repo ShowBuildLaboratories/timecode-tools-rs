@@ -1,0 +1,5 @@
+/target
+.DS_Store
+# Dart (reference/dart)
+.dart_tool/
+pubspec.lock

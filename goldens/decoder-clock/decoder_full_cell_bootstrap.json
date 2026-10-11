@@ -1,0 +1,84 @@
+{
+  "name": "full_cell_bootstrap",
+  "description": "Decoder: capture starts on a full bit cell instead of a half cell (preamble bit 0); the two-hypothesis bootstrap still locks.",
+  "sample_rate": 48000,
+  "kind": "encoded",
+  "encoder": {
+    "fps": 25,
+    "drop_frame": false,
+    "start_hours": 3,
+    "start_minutes": 4,
+    "start_seconds": 5,
+    "start_frames": 6,
+    "frame_count": 10,
+    "amplitude": 20000,
+    "preamble_bit": 0,
+    "invert": false
+  },
+  "sample_count": 19584,
+  "pcm_sha256": "7b8850c1a1195f6679417b6275efac5e93877597c93202baa59d289ff334076b",
+  "frames": [
+    {
+      "timecode": "03:04:05:06",
+      "sample_index": 2113,
+      "locked": false,
+      "estimated_fps": 25
+    },
+    {
+      "timecode": "03:04:05:07",
+      "sample_index": 4033,
+      "locked": false,
+      "estimated_fps": 25
+    },
+    {
+      "timecode": "03:04:05:08",
+      "sample_index": 5953,
+      "locked": false,
+      "estimated_fps": 25
+    },
+    {
+      "timecode": "03:04:05:09",
+      "sample_index": 7873,
+      "locked": true,
+      "estimated_fps": 25
+    },
+    {
+      "timecode": "03:04:05:10",
+      "sample_index": 9793,
+      "locked": true,
+      "estimated_fps": 25
+    },
+    {
+      "timecode": "03:04:05:11",
+      "sample_index": 11713,
+      "locked": true,
+      "estimated_fps": 25
+    },
+    {
+      "timecode": "03:04:05:12",
+      "sample_index": 13633,
+      "locked": true,
+      "estimated_fps": 25
+    },
+    {
+      "timecode": "03:04:05:13",
+      "sample_index": 15553,
+      "locked": true,
+      "estimated_fps": 25
+    },
+    {
+      "timecode": "03:04:05:14",
+      "sample_index": 17473,
+      "locked": true,
+      "estimated_fps": 25
+    },
+    {
+      "timecode": "03:04:05:15",
+      "sample_index": 19393,
+      "locked": true,
+      "estimated_fps": 25
+    }
+  ],
+  "final_locked": true,
+  "final_estimated_fps": 25
+}

@@ -1,0 +1,101 @@
+# Builds the C interface library for every platform and attaches it to the
+# GitHub release, then (after approval in the "release" environment)
+# publishes the crate.
+#
+# Trigger: push a tag like v0.1.0. A manual run only builds.
+#
+# Secrets ("release" environment): CARGO_REGISTRY_TOKEN.
+name: Release
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  ffi:
+    name: FFI ${{ matrix.target }}
+    runs-on: ${{ matrix.host }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { host: macos-14, target: aarch64-apple-darwin }
+          - { host: macos-14, target: x86_64-apple-darwin }
+          - { host: macos-14, target: aarch64-apple-ios }
+          - { host: macos-14, target: aarch64-apple-ios-sim }
+          - { host: macos-14, target: x86_64-apple-ios }
+          - { host: ubuntu-latest, target: aarch64-linux-android, ndk: true }
+          - { host: ubuntu-latest, target: armv7-linux-androideabi, ndk: true }
+          - { host: ubuntu-latest, target: x86_64-linux-android, ndk: true }
+          - { host: ubuntu-22.04, target: x86_64-unknown-linux-gnu }
+          - { host: ubuntu-22.04-arm, target: aarch64-unknown-linux-gnu }
+          - { host: windows-latest, target: x86_64-pc-windows-msvc }
+          - { host: windows-latest, target: aarch64-pc-windows-msvc }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: ${{ matrix.target }}
+      - uses: Swatinem/rust-cache@v2
+        with:
+          key: ${{ matrix.target }}
+      - uses: nttld/setup-ndk@v1
+        if: matrix.ndk
+        with:
+          ndk-version: r27c
+      - run: cargo install cargo-ndk --locked
+        if: matrix.ndk
+      - name: Build
+        shell: bash
+        run: scripts/build-ffi.sh ${{ matrix.target }}
+      - name: Smoke test (host targets)
+        if: matrix.target == 'aarch64-apple-darwin' || matrix.target == 'x86_64-unknown-linux-gnu'
+        run: scripts/check-c-abi.sh
+      - name: Package
+        shell: bash
+        run: |
+          cd target/ffi-dist
+          tar czf timecode-tools-ffi-${{ matrix.target }}.tar.gz ${{ matrix.target }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ffi-${{ matrix.target }}
+          path: target/ffi-dist/timecode-tools-ffi-${{ matrix.target }}.tar.gz
+          if-no-files-found: error
+
+  release:
+    name: GitHub release and crates.io
+    needs: ffi
+    if: startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-latest
+    environment: release # require a manual approval on this environment
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: ffi-*
+          path: dist
+          merge-multiple: true
+      - name: Checksums
+        working-directory: dist
+        run: |
+          test "$(ls *.tar.gz | wc -l)" -eq 12
+          sha256sum *.tar.gz > SHA256SUMS
+          cat SHA256SUMS
+      - name: Attach to the GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "$GITHUB_REF_NAME" dist/* --title "$GITHUB_REF_NAME" --notes-file CHANGELOG.md
+      - name: Publish crate
+        run: cargo publish -p timecode-tools
+        env:
+          CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}

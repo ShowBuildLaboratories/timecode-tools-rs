@@ -1,0 +1,201 @@
+{
+  "name": "staleness_scripted",
+  "description": "Clock: 20 observations at 30 fps, all at an injected time of 100 ms, then queries at 100 ms (fresh), 40 ms (time going backwards must still read fresh) and 160 ms (60 ms past the 50 ms stale limit: stale).",
+  "config": {
+    "max_age_seconds": 4.0,
+    "stale_after_ns": 50000000,
+    "max_points": 120,
+    "min_points_for_fit": 2,
+    "min_points_usable": 8,
+    "min_span_seconds": 0.25,
+    "max_residual_frames": 0.75,
+    "jump_reset_frames": 5.0
+  },
+  "steps": [
+    {
+      "op": "observe",
+      "t": 0.0,
+      "tc": 0.0,
+      "frames_per_day": null,
+      "now_ns": 100000000
+    },
+    {
+      "op": "observe",
+      "t": 0.03333333333333333,
+      "tc": 1.0,
+      "frames_per_day": null,
+      "now_ns": 100000000
+    },
+    {
+      "op": "observe",
+      "t": 0.06666666666666667,
+      "tc": 2.0,
+      "frames_per_day": null,
+      "now_ns": 100000000
+    },
+    {
+      "op": "observe",
+      "t": 0.1,
+      "tc": 3.0,
+      "frames_per_day": null,
+      "now_ns": 100000000
+    },
+    {
+      "op": "observe",
+      "t": 0.13333333333333333,
+      "tc": 4.0,
+      "frames_per_day": null,
+      "now_ns": 100000000
+    },
+    {
+      "op": "observe",
+      "t": 0.16666666666666666,
+      "tc": 5.0,
+      "frames_per_day": null,
+      "now_ns": 100000000
+    },
+    {
+      "op": "observe",
+      "t": 0.2,
+      "tc": 6.0,
+      "frames_per_day": null,
+      "now_ns": 100000000
+    },
+    {
+      "op": "observe",
+      "t": 0.23333333333333334,
+      "tc": 7.0,
+      "frames_per_day": null,
+      "now_ns": 100000000
+    },
+    {
+      "op": "observe",
+      "t": 0.26666666666666666,
+      "tc": 8.0,
+      "frames_per_day": null,
+      "now_ns": 100000000
+    },
+    {
+      "op": "observe",
+      "t": 0.3,
+      "tc": 9.0,
+      "frames_per_day": null,
+      "now_ns": 100000000
+    },
+    {
+      "op": "observe",
+      "t": 0.3333333333333333,
+      "tc": 10.0,
+      "frames_per_day": null,
+      "now_ns": 100000000
+    },
+    {
+      "op": "observe",
+      "t": 0.36666666666666664,
+      "tc": 11.0,
+      "frames_per_day": null,
+      "now_ns": 100000000
+    },
+    {
+      "op": "observe",
+      "t": 0.4,
+      "tc": 12.0,
+      "frames_per_day": null,
+      "now_ns": 100000000
+    },
+    {
+      "op": "observe",
+      "t": 0.43333333333333335,
+      "tc": 13.0,
+      "frames_per_day": null,
+      "now_ns": 100000000
+    },
+    {
+      "op": "observe",
+      "t": 0.4666666666666667,
+      "tc": 14.0,
+      "frames_per_day": null,
+      "now_ns": 100000000
+    },
+    {
+      "op": "observe",
+      "t": 0.5,
+      "tc": 15.0,
+      "frames_per_day": null,
+      "now_ns": 100000000
+    },
+    {
+      "op": "observe",
+      "t": 0.5333333333333333,
+      "tc": 16.0,
+      "frames_per_day": null,
+      "now_ns": 100000000
+    },
+    {
+      "op": "observe",
+      "t": 0.5666666666666667,
+      "tc": 17.0,
+      "frames_per_day": null,
+      "now_ns": 100000000
+    },
+    {
+      "op": "observe",
+      "t": 0.6,
+      "tc": 18.0,
+      "frames_per_day": null,
+      "now_ns": 100000000
+    },
+    {
+      "op": "observe",
+      "t": 0.6333333333333333,
+      "tc": 19.0,
+      "frames_per_day": null,
+      "now_ns": 100000000
+    },
+    {
+      "op": "snapshot",
+      "now_ns": 100000000,
+      "a": 1.7763568394002505e-15,
+      "b": 30.000000000000004,
+      "residual": 2.2137746890064344e-15,
+      "usable": true,
+      "nominal_fps": 30
+    },
+    {
+      "op": "probe",
+      "t": 0.6333333333333333,
+      "now_ns": 100000000,
+      "value": 19.0
+    },
+    {
+      "op": "snapshot",
+      "now_ns": 40000000,
+      "a": 1.7763568394002505e-15,
+      "b": 30.000000000000004,
+      "residual": 2.2137746890064344e-15,
+      "usable": true,
+      "nominal_fps": 30
+    },
+    {
+      "op": "probe",
+      "t": 0.6333333333333333,
+      "now_ns": 40000000,
+      "value": 19.0
+    },
+    {
+      "op": "snapshot",
+      "now_ns": 160000000,
+      "a": null,
+      "b": null,
+      "residual": null,
+      "usable": false,
+      "nominal_fps": null
+    },
+    {
+      "op": "probe",
+      "t": 0.6333333333333333,
+      "now_ns": 160000000,
+      "value": null
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "name": "inverted_polarity",
+  "description": "Decoder: the ascending 25 fps signal with its sign flipped. Biphase-mark decoding uses only edge spacing, so the result is identical.",
+  "sample_rate": 48000,
+  "kind": "encoded",
+  "encoder": {
+    "fps": 25,
+    "drop_frame": false,
+    "start_hours": 1,
+    "start_minutes": 2,
+    "start_seconds": 3,
+    "start_frames": 4,
+    "frame_count": 10,
+    "amplitude": 20000,
+    "preamble_bit": 1,
+    "invert": true
+  },
+  "sample_count": 19584,
+  "pcm_sha256": "f4d751faf57ff10719bcad03132af52290cde3e07e8dcc4b570cddbacc7fa5b2",
+  "frames": [
+    {
+      "timecode": "01:02:03:04",
+      "sample_index": 2113,
+      "locked": false,
+      "estimated_fps": 25
+    },
+    {
+      "timecode": "01:02:03:05",
+      "sample_index": 4033,
+      "locked": false,
+      "estimated_fps": 25
+    },
+    {
+      "timecode": "01:02:03:06",
+      "sample_index": 5953,
+      "locked": false,
+      "estimated_fps": 25
+    },
+    {
+      "timecode": "01:02:03:07",
+      "sample_index": 7873,
+      "locked": true,
+      "estimated_fps": 25
+    },
+    {
+      "timecode": "01:02:03:08",
+      "sample_index": 9793,
+      "locked": true,
+      "estimated_fps": 25
+    },
+    {
+      "timecode": "01:02:03:09",
+      "sample_index": 11713,
+      "locked": true,
+      "estimated_fps": 25
+    },
+    {
+      "timecode": "01:02:03:10",
+      "sample_index": 13633,
+      "locked": true,
+      "estimated_fps": 25
+    },
+    {
+      "timecode": "01:02:03:11",
+      "sample_index": 15553,
+      "locked": true,
+      "estimated_fps": 25
+    },
+    {
+      "timecode": "01:02:03:12",
+      "sample_index": 17473,
+      "locked": true,
+      "estimated_fps": 25
+    },
+    {
+      "timecode": "01:02:03:13",
+      "sample_index": 19393,
+      "locked": true,
+      "estimated_fps": 25
+    }
+  ],
+  "final_locked": true,
+  "final_estimated_fps": 25
+}

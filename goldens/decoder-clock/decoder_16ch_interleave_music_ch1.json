@@ -1,0 +1,87 @@
+{
+  "name": "16ch_interleave_music_ch1",
+  "description": "Decoder: 16-channel capture with music-like audio (a sum of sines) on CH 1, LTC on CH 2 and silence on CH 3-16. `frames` is the decode of CH 2 after de-interleaving, identical to decoding that channel's mono PCM directly.",
+  "sample_rate": 48000,
+  "kind": "encoded",
+  "channel_count": 16,
+  "ltc_channel_index_0based": 1,
+  "music_channel_index_0based": 0,
+  "encoder": {
+    "fps": 25,
+    "drop_frame": false,
+    "start_hours": 4,
+    "start_minutes": 5,
+    "start_seconds": 6,
+    "start_frames": 7,
+    "frame_count": 10,
+    "amplitude": 20000,
+    "preamble_bit": 1,
+    "invert": false
+  },
+  "sample_count": 19584,
+  "pcm_sha256": "d17267bf63f8cb5a609fd5a47a043dfafc550726b9c2d2adefc77c1a51f51e2e",
+  "frames": [
+    {
+      "timecode": "04:05:06:07",
+      "sample_index": 2113,
+      "locked": false,
+      "estimated_fps": 25
+    },
+    {
+      "timecode": "04:05:06:08",
+      "sample_index": 4033,
+      "locked": false,
+      "estimated_fps": 25
+    },
+    {
+      "timecode": "04:05:06:09",
+      "sample_index": 5953,
+      "locked": false,
+      "estimated_fps": 25
+    },
+    {
+      "timecode": "04:05:06:10",
+      "sample_index": 7873,
+      "locked": true,
+      "estimated_fps": 25
+    },
+    {
+      "timecode": "04:05:06:11",
+      "sample_index": 9793,
+      "locked": true,
+      "estimated_fps": 25
+    },
+    {
+      "timecode": "04:05:06:12",
+      "sample_index": 11713,
+      "locked": true,
+      "estimated_fps": 25
+    },
+    {
+      "timecode": "04:05:06:13",
+      "sample_index": 13633,
+      "locked": true,
+      "estimated_fps": 25
+    },
+    {
+      "timecode": "04:05:06:14",
+      "sample_index": 15553,
+      "locked": true,
+      "estimated_fps": 25
+    },
+    {
+      "timecode": "04:05:06:15",
+      "sample_index": 17473,
+      "locked": true,
+      "estimated_fps": 25
+    },
+    {
+      "timecode": "04:05:06:16",
+      "sample_index": 19393,
+      "locked": true,
+      "estimated_fps": 25
+    }
+  ],
+  "final_locked": true,
+  "final_estimated_fps": 25
+}

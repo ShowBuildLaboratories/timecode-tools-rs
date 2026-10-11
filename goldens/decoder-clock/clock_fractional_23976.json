@@ -1,0 +1,311 @@
+{
+  "name": "fractional_23976",
+  "description": "Clock: 23.976 fps (24000/1001) is measured as distinct from 24.0 while the nominal fps still resolves to 24.",
+  "config": {
+    "max_age_seconds": 4.0,
+    "stale_after_ns": 4000000000,
+    "max_points": 120,
+    "min_points_for_fit": 2,
+    "min_points_usable": 8,
+    "min_span_seconds": 0.25,
+    "max_residual_frames": 0.75,
+    "jump_reset_frames": 5.0
+  },
+  "steps": [
+    {
+      "op": "observe",
+      "t": 0.0,
+      "tc": 0.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.041708333333333326,
+      "tc": 1.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.08341666666666665,
+      "tc": 2.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.125125,
+      "tc": 3.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.1668333333333333,
+      "tc": 4.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.20854166666666663,
+      "tc": 5.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.25025,
+      "tc": 6.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.2919583333333333,
+      "tc": 7.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.3336666666666666,
+      "tc": 8.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.3753749999999999,
+      "tc": 9.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.41708333333333325,
+      "tc": 10.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.4587916666666666,
+      "tc": 11.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.5005,
+      "tc": 12.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.5422083333333333,
+      "tc": 13.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.5839166666666666,
+      "tc": 14.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.6256249999999999,
+      "tc": 15.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.6673333333333332,
+      "tc": 16.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.7090416666666666,
+      "tc": 17.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.7507499999999998,
+      "tc": 18.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.7924583333333332,
+      "tc": 19.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.8341666666666665,
+      "tc": 20.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.8758749999999998,
+      "tc": 21.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.9175833333333332,
+      "tc": 22.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 0.9592916666666665,
+      "tc": 23.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 1.001,
+      "tc": 24.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 1.0427083333333331,
+      "tc": 25.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 1.0844166666666666,
+      "tc": 26.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 1.1261249999999998,
+      "tc": 27.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 1.1678333333333333,
+      "tc": 28.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 1.2095416666666665,
+      "tc": 29.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 1.2512499999999998,
+      "tc": 30.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 1.2929583333333332,
+      "tc": 31.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 1.3346666666666664,
+      "tc": 32.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 1.3763749999999997,
+      "tc": 33.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 1.4180833333333331,
+      "tc": 34.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 1.4597916666666664,
+      "tc": 35.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 1.5014999999999996,
+      "tc": 36.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 1.543208333333333,
+      "tc": 37.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 1.5849166666666663,
+      "tc": 38.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "observe",
+      "t": 1.6266249999999998,
+      "tc": 39.0,
+      "frames_per_day": null,
+      "now_ns": 0
+    },
+    {
+      "op": "snapshot",
+      "now_ns": 0,
+      "a": 0.0,
+      "b": 23.976023976023985,
+      "residual": 5.040583708653058e-15,
+      "usable": true,
+      "nominal_fps": 24
+    },
+    {
+      "op": "probe",
+      "t": 1.6266249999999998,
+      "now_ns": 0,
+      "value": 39.00000000000001
+    }
+  ]
+}
