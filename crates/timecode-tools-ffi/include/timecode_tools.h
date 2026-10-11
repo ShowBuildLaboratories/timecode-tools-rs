@@ -203,7 +203,7 @@ typedef struct TtClockConfig {
 } TtClockConfig;
 
 typedef struct TtClockState {
-    int32_t has_fit;      /* a, b and residual are valid */
+    int32_t has_fit;      /* a, b and residual are valid: a fit exists, not stale at now_ns */
     int32_t usable;
     double a;             /* frames at sample time 0 */
     double b;             /* measured frames per second */

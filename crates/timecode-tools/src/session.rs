@@ -142,7 +142,7 @@ impl Session {
         }
         if count == 2 && !interleaved.is_empty() && !self.duplicate_channels {
             let signal = self.decoders.iter().any(|d| d.signal_level() > 0.02);
-            if signal && interleaved.chunks_exact(2).all(|p| p[0] == p[1]) {
+            if signal && interleaved.as_chunks::<2>().0.iter().all(|p| p[0] == p[1]) {
                 self.identical_streak += 1;
             } else {
                 self.identical_streak = 0;

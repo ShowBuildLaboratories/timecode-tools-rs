@@ -794,14 +794,15 @@ pub unsafe extern "C" fn tt_clock_state(
         let (Some(c), Some(out)) = (clock.as_ref(), out.as_mut()) else {
             return;
         };
+        // As the reference `LtcClockModel`: the fit counts only while fresh
+        // (not stale at `now_ns`) and backed by enough observations.
         let snap = c.clock.snapshot(now_ns.max(0) as u64);
-        let fit = c.clock.raw_fit();
         *out = TtClockState {
-            has_fit: i32::from(fit.is_some()),
+            has_fit: i32::from(snap.b.is_some()),
             usable: i32::from(snap.usable),
-            a: fit.map_or(0., |f| f.a),
-            b: fit.map_or(0., |f| f.b),
-            residual: fit.map_or(0., |f| f.residual),
+            a: snap.a.unwrap_or(0.),
+            b: snap.b.unwrap_or(0.),
+            residual: snap.residual.unwrap_or(0.),
             nominal_fps: snap.nominal_fps.map_or(-1, |f| f as i32),
             observation_count: c.clock.observation_count() as u32,
             window_span_seconds: c.clock.window_span_seconds(),

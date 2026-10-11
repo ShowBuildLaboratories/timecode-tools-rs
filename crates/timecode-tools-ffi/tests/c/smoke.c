@@ -72,7 +72,10 @@ int main(void) {
     tt_clock_state(c, 0, &st);
     printf("clock usable=%d b=%.6f nominal=%d count=%u\n", st.usable, st.b, st.nominal_fps,
            st.observation_count);
-    assert(st.usable == 1 && st.nominal_fps == 30);
+    assert(st.usable == 1 && st.nominal_fps == 30 && st.has_fit == 1);
+    /* 5 s later with no new observation: stale, so no fit (as the reference). */
+    tt_clock_state(c, 5000000000LL, &st);
+    assert(st.has_fit == 0 && st.usable == 0 && st.nominal_fps == -1);
     tt_clock_free(c);
 
     TtTimecode tc;
